@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --p-Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --p-Soft-Pink: hsl(333, 80%, 67%);
+
+    --n-Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --n-Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --n-White: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    line-height: 1.3em;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    font-size: .9375rem;
+    padding: 3.125rem;
+}
+
+
+.text-box h1{
+    color: var(--p-Very-Dark-Magenta);
+    width: 350px;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    line-height: 1em;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.text-box p{
+    width: 375px;
+    color: var(--n-Dark-Grayish-Magenta);
+    font-weight: 500;
+}
+
+.ratings1{
+    background: var(--n-Light-Grayish-Magenta);
+    width: 395px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    padding: 14px 25px;
+    border-radius: 5px;
+}
+
+.ratings2{
+    background: var(--n-Light-Grayish-Magenta);
+    width: 395px;
+    margin-top: 15px;
+    margin-left: 60px;
+    display: flex;
+    padding: 14px 25px;
+    border-radius: 5px;
+}
+
+.ratings3{
+    background: var(--n-Light-Grayish-Magenta);
+    width: 395px;
+    margin-left: 100px;
+    margin-right: 0;
+    margin-top: 14px;
+    display: flex;
+    padding: 14px 25px;
+    border-radius: 5px;
+}
+
+svg{
+    margin: 0 3px;
+}
+
+.ratings1 p{
+    color: var(--p-Very-Dark-Magenta);
+    margin-left: 20px;
+}
+
+.ratings2 p{
+    color: var(--p-Very-Dark-Magenta);
+    margin-left: 20px;
+}
+
+.ratings3 p{
+    color: var(--p-Very-Dark-Magenta);
+    margin-left: 20px;
+}
+
+.star-reviews{
+    margin-right: 100px;
+}
+
+.report-guru{
+    margin-right: 50px;
+}
+
+.review-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-card{
+    background: var(--p-Very-Dark-Magenta);
+    padding: 25px;
+    width: 313px;
+    border-radius: 7px;
+    height: 200px;
+}
+
+.user-details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review-card img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.user-information{
+    margin-left: 20px;
+}
+
+.username{
+    color: var(--n-White);
+}
+
+.user-status{
+    color: var(--p-Soft-Pink);
+    margin-top: 20px;
+}
+
+.review{
+    color: var(--n-White);
+}
+
+
+.two{
+    margin-top: 20px;
+}
+.three{
+    margin-top: 40px;
+}
+
+/* mobile 600px */
+@media only screen and (max-width: 600px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-box h1{
+        width: 300px;
+        margin: 0;
+        margin-bottom: 20px;
+        text-align: center;
+
+    }
+    .text-box p{
+        text-align: center;
+        width: 300px;
+    }
+    main{
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ratings1{
+        margin-top: 15px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 14px 25px;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        min-width: 200px;
+    }
+    .ratings2{
+        margin-top: 15px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 14px 25px;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+    }
+    .ratings3{
+        margin-top: 15px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 14px 25px;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        /* min-height: 100vh; */
+        padding: 40px 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .ratings1 p{
+        margin: 0;
+    }
+    .ratings2 p{
+        margin: 0;
+    }
+    .ratings3 p{
+        margin: 0;
+    }
+    .review-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .three{
+        margin-top: 20px;
+    }
+}
