@@ -20,7 +20,9 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    /* background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg); */
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
 }
 
 p{
@@ -37,108 +39,111 @@ main{
 
 .text-box h1{
     color: var(--p-Very-Dark-Magenta);
-    width: 350px;
+    width: 21.875rem;
     font-weight: 900;
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     line-height: 1em;
 }
 .hero-section{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 .text-box p{
-    width: 375px;
+    width: 23.4375rem;
     color: var(--n-Dark-Grayish-Magenta);
     font-weight: 500;
 }
 
 .ratings1{
     background: var(--n-Light-Grayish-Magenta);
-    width: 395px;
-    margin-top: 15px;
-    margin-left: 20px;
+    width: 24.6875rem;
+    margin-top: .9375rem;
+    margin-left: 1.25rem;
     display: flex;
-    padding: 14px 25px;
-    border-radius: 5px;
+    padding: .875rem 1.5625rem;
+    border-radius: .3125rem;
 }
 
 .ratings2{
     background: var(--n-Light-Grayish-Magenta);
-    width: 395px;
-    margin-top: 15px;
-    margin-left: 60px;
+    width: 24.6875rem;
+    margin-top: .9375rem;
+    margin-left: 3.75rem;
     display: flex;
-    padding: 14px 25px;
-    border-radius: 5px;
+    padding: .875rem 1.5625rem;
+    border-radius: .3125rem;
 }
 
 .ratings3{
     background: var(--n-Light-Grayish-Magenta);
-    width: 395px;
-    margin-left: 100px;
+    width: 24.6875rem;
+    margin-left: 6.25rem;
     margin-right: 0;
-    margin-top: 14px;
+    margin-top: .875rem;
     display: flex;
-    padding: 14px 25px;
-    border-radius: 5px;
+    padding: .875rem 1.5625rem;
+    border-radius: .3125rem;
 }
 
 svg{
-    margin: 0 3px;
+    margin: 0 .1875rem;
 }
 
 .ratings1 p{
     color: var(--p-Very-Dark-Magenta);
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .ratings2 p{
     color: var(--p-Very-Dark-Magenta);
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .ratings3 p{
     color: var(--p-Very-Dark-Magenta);
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .star-reviews{
-    margin-right: 100px;
+    margin-right: 6.25rem;
 }
 
 .report-guru{
-    margin-right: 50px;
+    margin-right: 3.125rem;
 }
 
 .review-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .625rem; 
 }
 
 .review-card{
     background: var(--p-Very-Dark-Magenta);
-    padding: 25px;
-    width: 313px;
-    border-radius: 7px;
-    height: 200px;
+    padding: 1.5625rem;
+    width: 19.5625rem;
+    border-radius: .4375rem;
+    height: 12.5rem;
 }
 
 .user-details{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .review-card img{
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 2.1875rem;
+    height: 2.1875rem;
 }
 
 .user-information{
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .username{
@@ -147,7 +152,7 @@ svg{
 
 .user-status{
     color: var(--p-Soft-Pink);
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .review{
@@ -156,10 +161,10 @@ svg{
 
 
 .two{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 .three{
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 /* mobile 450px */
@@ -167,20 +172,20 @@ svg{
     .hero-section{
         display: flex;
         flex-direction: column;
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
         justify-content: center;
         align-items: center;
     }
     .text-box h1{
-        width: 300px;
+        width: 18.75rem;
         margin: 0;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         text-align: center;
 
     }
     .text-box p{
         text-align: center;
-        width: 300px;
+        width: 18.75rem;
     }
     main{
         padding: 0;
@@ -190,44 +195,47 @@ svg{
     }
     .ratings1{
         margin: auto;
-        margin-top: 40px;
+        margin-top: 2.5rem;
         display: flex;
         flex-direction: column;
-        padding: 14px 25px;
-        border-radius: 5px;
+        padding: .875rem 1.5625rem;
+        border-radius: .3125rem;
         justify-content: center;
         align-items: center;
-        width: 365px;
+        width: 22.8125rem;
     }
     .ratings2{
         margin: auto;
-        margin-top: 15px;
+        margin-top: .9375rem;
         display: flex;
         flex-direction: column;
-        padding: 14px 25px;
-        border-radius: 5px;
+        padding: .875rem 1.5625rem;
+        border-radius: .3125rem;
         justify-content: center;
         align-items: center;
-        width: 335px;
+        width: 20.9375rem;
     }
     .ratings3{
         margin: auto;
-        margin-top: 15px;
+        margin-top: .9375rem;
         display: flex;
         flex-direction: column;
-        padding: 14px 25px;
-        border-radius: 5px;
+        padding: .875rem 1.5625rem;
+        border-radius: .3125rem;
         justify-content: center;
         align-items: center;
-        max-width: 305px;
+        max-width: 19.0625rem;
     }
     body{
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-        padding: 60px 20px;
+        padding: 3.75rem 1.25rem;
         justify-content: center;
         align-items: center;
+        background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: top left, bottom right;
 
     }
     .ratings1 p{
@@ -246,14 +254,14 @@ svg{
         align-items: center;
     }
     .review-card{
-        padding: 25px;
-        max-width: 305px;
+        padding: 1.5625rem;
+        max-width: 19.0625rem;
     }
     .three{
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
     .stars{
-        margin-bottom: 5px;
+        margin-bottom: .3125rem;
     }
     .proof-section{
         justify-content: center;
