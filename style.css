@@ -161,8 +161,8 @@ svg{
     margin-top: 40px;
 }
 
-/* mobile 600px */
-@media only screen and (max-width: 600px) {
+/* mobile 375px */
+@media only screen and (max-width: 375px) {
     .hero-section{
         display: flex;
         flex-direction: column;
@@ -196,7 +196,7 @@ svg{
         border-radius: 5px;
         justify-content: center;
         align-items: center;
-        min-width: 200px;
+        width: 285px;
     }
     .ratings2{
         margin-top: 15px;
@@ -207,7 +207,7 @@ svg{
         border-radius: 5px;
         justify-content: center;
         align-items: center;
-        max-width: 600px;
+        width: 285px;
     }
     .ratings3{
         margin-top: 15px;
@@ -218,13 +218,13 @@ svg{
         border-radius: 5px;
         justify-content: center;
         align-items: center;
-        max-width: 600px;
+        width: 285px;
     }
     body{
         display: flex;
         flex-direction: column;
         /* min-height: 100vh; */
-        padding: 40px 20px;
+        padding: 60px 20px;
         justify-content: center;
         align-items: center;
 
@@ -243,6 +243,11 @@ svg{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .review-card{
+        padding: 25px;
+        max-width: 285px;
+        /* height: 200px; */
     }
     .three{
         margin-top: 20px;
