@@ -64,6 +64,7 @@ main{
     display: flex;
     padding: .875rem 1.5625rem;
     border-radius: .3125rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .ratings2{
@@ -74,6 +75,7 @@ main{
     display: flex;
     padding: .875rem 1.5625rem;
     border-radius: .3125rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .ratings3{
@@ -85,6 +87,7 @@ main{
     display: flex;
     padding: .875rem 1.5625rem;
     border-radius: .3125rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 svg{
@@ -119,7 +122,7 @@ svg{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: .625rem; 
+    gap: 1.25rem; 
 }
 
 .review-card{
