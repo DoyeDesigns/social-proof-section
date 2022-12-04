@@ -218,12 +218,12 @@ svg{
         border-radius: 5px;
         justify-content: center;
         align-items: center;
-        width: 285px;
+        max-width: 285px;
     }
     body{
         display: flex;
         flex-direction: column;
-        /* min-height: 100vh; */
+        min-height: 100vh;
         padding: 60px 20px;
         justify-content: center;
         align-items: center;
@@ -250,5 +250,8 @@ svg{
     }
     .three{
         margin-top: 20px;
+    }
+    .stars{
+        margin-bottom: 5px;
     }
 }
