@@ -119,7 +119,7 @@ svg{
 
 .review-section{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 1.25rem; 
@@ -170,6 +170,92 @@ svg{
     margin-top: 2.5rem;
 }
 
+@media only screen and (max-width: 1300px) {
+    .review-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1.25rem; 
+    }
+    .one{
+        margin:0;
+        align-items: flex-start;
+    }
+    .two{
+        margin:0;
+        align-items: center;
+    }
+    .three{
+        margin:0;
+        align-items: flex-end;
+    }
+}
+
+/* tablet */
+@media only screen and (max-width: 950px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3.125rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-box{
+        text-align: center;
+    }
+    .text-box h1{
+        width: auto;
+        margin: 0;
+        margin-bottom: 1.25rem;
+    }
+    .text-box p{
+        width: auto;
+    }
+    .proof-section{
+        display: grid;
+    }
+    .ratings1{
+        margin: auto;
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        padding: .875rem 1.5625rem;
+        border-radius: .3125rem;
+        justify-content: center;
+        align-items: center;
+        width: 22.8125rem;
+    }
+    .ratings2{
+        margin: auto;
+        margin-top: .9375rem;
+        display: flex;
+        flex-direction: column;
+        padding: .875rem 1.5625rem;
+        border-radius: .3125rem;
+        justify-content: center;
+        align-items: center;
+        width: 22.8125rem;
+    }
+    .ratings3{
+        margin: auto;
+        margin-top: .9375rem;
+        display: flex;
+        flex-direction: column;
+        padding: .875rem 1.5625rem;
+        border-radius: .3125rem;
+        justify-content: center;
+        align-items: center;
+        max-width: 22.8125rem;
+    }
+    .review-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /* mobile 450px */
 @media only screen and (max-width: 450px) {
     .hero-section{
@@ -180,7 +266,7 @@ svg{
         align-items: center;
     }
     .text-box h1{
-        width: 18.75rem;
+        width: auto;
         margin: 0;
         margin-bottom: 1.25rem;
         text-align: center;
@@ -188,7 +274,7 @@ svg{
     }
     .text-box p{
         text-align: center;
-        width: 18.75rem;
+        width: auto;
     }
     main{
         padding: 0;
@@ -271,3 +357,4 @@ svg{
         align-items: center;
     }
 }
+    
